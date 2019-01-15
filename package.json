@@ -1,0 +1,16 @@
+{
+  "name": "mebot",
+  "version": "0.0.1",
+  "description": "Бот создан командой YUKU",
+  "main": "mebot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Команда YUKU",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "ms": "^2.1.1",
+    "request": "^2.88.0"
+  }
+}
