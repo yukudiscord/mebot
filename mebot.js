@@ -3,7 +3,7 @@ const ms = require("ms");
 const client = new Discord.Client({disableEveryone : true});
  
 let p = "is!"
-let c = 'YELLOW'
+let c = '#dcec1f'
  
  
 client.login(process.env.TOKEN);
