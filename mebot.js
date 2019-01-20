@@ -2,13 +2,13 @@ const Discord = require(`discord.js`);
 const ms = require("ms");
 const client = new Discord.Client({disableEveryone : true});
  
-let p = "me!"
+let p = "is!"
 let c = 'BLUE'
  
  
 client.login(process.env.TOKEN);
 client.on('ready', () => {  
-    client.user.setActivity("с хранителем", {type: "PLAYING"});
+    client.user.setActivity("в будущее", {type: "WATCHING"});
 console.log("Запущен!");    
 });                        
 client.on('message', message => {
